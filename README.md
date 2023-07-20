@@ -1,2 +1,2 @@
 # DONATION
-web for donitiion
+web for donition
