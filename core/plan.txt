@@ -1,0 +1,5 @@
+0- Setup project -> done
+1- design home page  -> done
+2- design succes donation page 
+3- design failed donation page 
+4- users can donated using paypal 
