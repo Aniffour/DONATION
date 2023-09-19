@@ -2,10 +2,11 @@ from django.shortcuts import render
 from django.urls import reverse
 from django.views import View
 from paypal.standard.forms import PayPalPaymentsForm
-from paypal.standard.forms import PayPalPaymentsForm
 import datetime
 import logging
 logger = logging.getLogger(__name__)
+
+
 
 class Home (View): 
     def get(self  , request):
