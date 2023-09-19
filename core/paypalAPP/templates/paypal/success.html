@@ -1,34 +1,14 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUCCESS DONATION</title>
-    <style>
-        .emoji {
-        font-size: 48px;
-        margin-bottom: 10px;
-        }
-
-        .payment-completed {
-        border: 2px solid #1abc9c;
-        }
-
-        .thank-you {
-        margin-top: 20px;
-        font-size: 18px;
-        font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-    <div class="page payment-completed">
-        <div class="emoji">🎉</div>
-        <h1>Payment Completed!</h1>
-       
-        <p class="thank-you">🌟 Thank you for your DONATION! 🌟</p>
-      </div>
-</body>
-</html>
-
+{% extends "base.html" %}
+{% load static %}
+{% block title %}home{% endblock title %}
+{% block style %}
+<link rel="stylesheet" href="{% static 'css/status.css' %}">
+{% endblock style %}
+{% block content %}
+<div class="status">
+    <div class="emoji">🎉</div>
+    <h1>Payment Completed!</h1>
+   
+    <p class="thank-you">🌟 Thank you for your DONATION! 🌟</p>
+</div>
+{% endblock content %}
