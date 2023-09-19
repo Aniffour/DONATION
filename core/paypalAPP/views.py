@@ -21,7 +21,6 @@ class Home (View):
         "custom": inv, 
     }
         form = PayPalPaymentsForm(initial=paypal_dict)
-        
         return render(request , 'paypal/home.html' ,{'form':form} )
 
 

@@ -152,6 +152,12 @@ nav .container .links li a:hover{
     position: relative;
     transition:var(--transition-time) ;
 }
+@media(max-width:767px){
+    .content .container .img{
+        width: 300px;
+        height: 300px;
+    }
+}
 .content .container .img:hover{
     transform: scale(1.1);
 }
